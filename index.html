@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Syam M. S. | Karunya Institute of Technology and Sciences</title>
+<meta name="description" content="Dr. Syam M. S., Assistant Professor, Division of EEE, Karunya Institute of Technology and Sciences. Research on IRS-assisted wireless-powered communication networks, IoT and ISAC.">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #1c2430;
+    --muted: #5b6676;
+    --accent: #1f5f8b;
+    --line: #e3e7ec;
+    --bg: #fbfbf9;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: var(--ink); background: var(--bg);
+    line-height: 1.65; font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ---------- Navigation ---------- */
+  nav {
+    position: sticky; top: 0; z-index: 10;
+    background: rgba(251,251,249,0.95); backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-inner {
+    max-width: 960px; margin: auto; padding: 14px 24px;
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;
+  }
+  .nav-name { font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 1.15rem; color: var(--ink); }
+  .nav-links a { margin-left: 22px; color: var(--muted); font-size: 0.93rem; font-weight: 500; }
+  .nav-links a:hover { color: var(--accent); text-decoration: none; }
+
+  /* ---------- Layout ---------- */
+  main { max-width: 960px; margin: auto; padding: 0 24px 60px; }
+  section { padding: 56px 0 8px; scroll-margin-top: 60px; }
+  h2 {
+    font-family: 'Source Serif 4', serif; font-weight: 600; font-size: 1.6rem;
+    margin-bottom: 18px; padding-bottom: 8px; border-bottom: 2px solid var(--accent); display: inline-block;
+  }
+  h3 { font-size: 1.05rem; margin: 18px 0 6px; }
+  p { margin-bottom: 12px; }
+
+  /* ---------- Hero ---------- */
+  .hero { display: flex; gap: 40px; align-items: center; padding-top: 56px; flex-wrap: wrap; }
+  .photo {
+    width: 190px; height: 190px; border-radius: 50%; object-fit: cover;
+    border: 4px solid #fff; box-shadow: 0 2px 12px rgba(0,0,0,0.12); background: #dfe5ec;
+  }
+  .hero-text { flex: 1; min-width: 260px; }
+  .hero h1 { font-family: 'Source Serif 4', serif; font-size: 2.3rem; font-weight: 600; line-height: 1.2; }
+  .role { color: var(--muted); margin: 6px 0 16px; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; }
+  .links a {
+    border: 1px solid var(--line); background: #fff; padding: 6px 14px; border-radius: 20px;
+    font-size: 0.88rem; color: var(--ink);
+  }
+  .links a:hover { border-color: var(--accent); color: var(--accent); text-decoration: none; }
+
+  /* ---------- Lists & cards ---------- */
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .tags span { background: #e8f0f6; color: var(--accent); padding: 4px 12px; border-radius: 4px; font-size: 0.88rem; }
+  .pub { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .pub-title { font-weight: 600; }
+  .pub-meta { color: var(--muted); font-size: 0.92rem; }
+  .pub-links a { font-size: 0.85rem; margin-right: 12px; }
+  .timeline-item { display: grid; grid-template-columns: 140px 1fr; gap: 16px; padding: 8px 0; }
+  .timeline-item .when { color: var(--muted); font-size: 0.92rem; }
+  ul.plain { list-style: none; }
+  ul.plain li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .news li { display: grid; grid-template-columns: 110px 1fr; gap: 12px; }
+  .news .date { color: var(--muted); font-size: 0.9rem; }
+
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 30px; border-top: 1px solid var(--line); }
+
+  @media (max-width: 640px) {
+    .nav-links a { margin: 0 14px 0 0; }
+    .hero { flex-direction: column; text-align: center; }
+    .links { justify-content: center; }
+    .timeline-item, .news li { grid-template-columns: 1fr; gap: 2px; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-name" href="#">Dr. Syam M. S.</a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- ================= HERO ================= -->
+  <div class="hero">
+    <!-- Upload your photo to the repository as photo.jpg -->
+    <img class="photo" src="photo.jpg" alt="Dr. Syam M. S.">
+    <div class="hero-text">
+      <h1>Dr. Syam M. S.</h1>
+      <p class="role">
+        Assistant Professor, Division of Electrical and Electronics Engineering<br>
+        Karunya Institute of Technology and Sciences, Coimbatore, India
+      </p>
+      <div class="links">
+        <a href="mailto:YOUR_EMAIL@karunya.edu">Email</a>
+        <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>
+        <a href="https://orcid.org/YOUR_ORCID" target="_blank">ORCID</a>
+        <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank">LinkedIn</a>
+        <a href="cv.pdf" target="_blank">CV (PDF)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am an Assistant Professor in the Division of Electrical and Electronics Engineering at
+      Karunya Institute of Technology and Sciences, Coimbatore. My research focuses on
+      resource allocation for intelligent reflecting surface (IRS)-assisted wireless-powered
+      communication networks (WPCNs), with applications to the Internet of Things (IoT) and
+      integrated sensing and communication (ISAC).
+    </p>
+    <p>
+      I received my Ph.D. for work on wireless-powered communication networks, and my M.Tech
+      research was on grid-connected photovoltaic systems. I also serve as the Exam Coordinator
+      for the Division of EEE.
+    </p>
+
+    <h3>Education</h3>
+    <div class="timeline-item"><div class="when">YEAR</div><div><strong>Ph.D.</strong>, Wireless-Powered Communication Networks — University Name</div></div>
+    <div class="timeline-item"><div class="when">YEAR</div><div><strong>M.Tech</strong>, Specialisation — University Name</div></div>
+    <div class="timeline-item"><div class="when">YEAR</div><div><strong>B.Tech</strong>, Electrical and Electronics Engineering — University Name</div></div>
+  </section>
+
+  <!-- ================= NEWS ================= -->
+  <section id="news">
+    <h2>News</h2>
+    <ul class="plain news">
+      <li><span class="date">Nov 2026</span><span>Personal website launched.</span></li>
+      <li><span class="date">MMM YYYY</span><span>Paper accepted in <em>Journal Name</em>.</span></li>
+    </ul>
+  </section>
+
+  <!-- ================= RESEARCH ================= -->
+  <section id="research">
+    <h2>Research</h2>
+    <p>
+      My work develops optimization frameworks for energy-efficient and throughput-optimal
+      wireless networks in which devices are powered by radio-frequency energy transfer.
+    </p>
+    <div class="tags">
+      <span>Wireless-Powered Communication Networks</span>
+      <span>Intelligent Reflecting Surfaces (IRS/RIS)</span>
+      <span>Integrated Sensing &amp; Communication</span>
+      <span>Internet of Things</span>
+      <span>Resource Allocation &amp; Convex Optimization</span>
+      <span>Cell-Free Networks</span>
+      <span>Grid-Connected Photovoltaics</span>
+    </div>
+  </section>
+
+  <!-- ================= PUBLICATIONS ================= -->
+  <section id="publications">
+    <h2>Publications</h2>
+    <p style="color:var(--muted);font-size:0.92rem;">
+      Full list on <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">Google Scholar</a>.
+    </p>
+
+    <h3>Journal Articles</h3>
+    <!-- Copy this block for each paper -->
+    <div class="pub">
+      <div class="pub-title">Paper Title Goes Here</div>
+      <div class="pub-meta"><strong>Syam M. S.</strong>, Co-author A, Co-author B — <em>Journal Name</em>, vol. X, no. Y, pp. 1–10, YEAR.</div>
+      <div class="pub-links"><a href="https://doi.org/..." target="_blank">DOI</a><a href="papers/paper1.pdf" target="_blank">PDF</a></div>
+    </div>
+    <div class="pub">
+      <div class="pub-title">Paper Title Goes Here</div>
+      <div class="pub-meta"><strong>Syam M. S.</strong>, Co-author A — <em>Journal Name</em>, YEAR.</div>
+      <div class="pub-links"><a href="https://doi.org/..." target="_blank">DOI</a></div>
+    </div>
+
+    <h3>Conference Papers</h3>
+    <div class="pub">
+      <div class="pub-title">Paper Title Goes Here</div>
+      <div class="pub-meta"><strong>Syam M. S.</strong>, Co-author — <em>Proc. Conference Name</em>, City, YEAR.</div>
+    </div>
+  </section>
+
+  <!-- ================= TEACHING ================= -->
+  <section id="teaching">
+    <h2>Teaching</h2>
+    <ul class="plain">
+      <li><strong>23EE2048</strong> — Energy Audit and Optimization</li>
+      <li><strong>23EE2027</strong> — Electric and Hybrid Vehicle Laboratory</li>
+      <li><strong>23EE2076</strong> — Deep Learning Laboratory</li>
+    </ul>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Division of Electrical and Electronics Engineering<br>
+      Karunya Institute of Technology and Sciences<br>
+      Karunya Nagar, Coimbatore, Tamil Nadu, India<br>
+      Email: <a href="mailto:YOUR_EMAIL@karunya.edu">YOUR_EMAIL@karunya.edu</a>
+    </p>
+    <p>I welcome enquiries from prospective research students and collaborators.</p>
+  </section>
+
+</main>
+
+<footer>© 2026 Dr. Syam M. S. · Hosted on GitHub Pages</footer>
+
+</body>
+</html>
