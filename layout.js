@@ -12,6 +12,7 @@ const SITE = {
   menu: [
     ["Home", "index.html"],
     ["Publications", "publications.html"],
+    ["Teaching", "teaching.html"],
     ["Honors", "honors.html"],
     ["Services", "services.html"],
     ["Useful Links", "resources.html"]
@@ -32,7 +33,7 @@ const SITE = {
      ["fa-brands fa-linkedin", "LinkedIn", "https://www.linkedin.com/in/s-ms/"],
   ],
 
-  updated: "2026-11-25"
+//  updated: "2026-11-25"
 };
 
 /* ---------- builds the page (no need to edit below) ---------- */
