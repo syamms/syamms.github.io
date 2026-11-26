@@ -10,6 +10,7 @@ const SITE = {
 
   // Top menu: [label, file]
   menu: [
+    ["Home", "index.html"],
     ["Publications", "publications.html"],
     ["Honors", "honors.html"],
     ["Services", "services.html"],
