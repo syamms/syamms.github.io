@@ -24,11 +24,11 @@ const SITE = {
     ["fa-solid fa-envelope", "syam@karunya.edu", "mailto:syam@karunya.edu"],
     ["fa-solid fa-envelope", "syamms@outlook.com", "mailto:syamms@outlook.com"],
     // ["ai ai-google-scholar", "Google Scholar", "https://scholar.google.com/citations?user=YOUR_ID"],
-    // ["ai ai-orcid", "ORCID", "https://orcid.org/0000-0000-0000-0000"],
+     ["ai ai-orcid", "ORCID", "https://orcid.org/0000-0001-7085-9767"],
     // ["ai ai-clarivate", "Web of Science", "https://www.webofscience.com/wos/author/record/YOUR_RID"],
     // ["ai ai-scopus", "Scopus", "https://www.scopus.com/authid/detail.uri?authorId=YOUR_ID"],
-    // ["ai ai-ieee", "IEEE Xplore", "https://ieeexplore.ieee.org/author/YOUR_ID"],
-    // ["fa-brands fa-linkedin", "LinkedIn", "https://www.linkedin.com/in/YOUR_PROFILE"],
+     ["ai ai-ieee", "IEEE Xplore", "https://ieeexplore.ieee.org/author/37087807375"],
+     ["fa-brands fa-linkedin", "LinkedIn", "https://www.linkedin.com/in/s-ms/"],
   ],
 
   updated: "2026-11-25"
